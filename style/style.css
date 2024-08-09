@@ -23,6 +23,7 @@ nav {
   margin-top: 50px;
 }
 ul {
+  width:55%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,14 +38,20 @@ ul li {
   letter-spacing: 0px;
   text-align: left;
 }
+.bars-icon{
+  color: #fff;
+  display: none;
+  width: 15%;
+}
 .logo {
+  width: auto;
+  text-align: center;
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0px;
-  text-align: left;
-  padding: 15px 40px;
+  padding: 15px 30px;
   background: rgb(224, 44, 109);
   border: none;
 }
